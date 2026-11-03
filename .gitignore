@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Dataset - não enviar as imagens do Kaggle para o GitHub
+data/
+
+# Modelos treinados e pesos do YOLO
+*.pt
+models/*.pt
+
+# Resultados do treinamento
+runs/
+
+# Cache e artefatos locais
+*.cache
